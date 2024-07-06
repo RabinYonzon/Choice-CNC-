@@ -1,0 +1,45 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .product-list .card {
+    transition: transform 0.2s;
+  }
+  
+  .product-list .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-list h1 {
+    font-size: 1.5em;
+  }
+  
+  .product-list h3 {
+    color: #888;
+    margin-top: 10px;
+  }
+  
+  .product-list .btn {
+    margin-top: 10px;
+  }
+  
+  .see-more-button {
+    display: block;
+    margin: 20px auto;
+  }
+.see-more{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.see-more .see-more-btn{
+    background: #E64833;
+    font-size: 20px;
+}
+.see-more .see-more-icon{
+    margin-left: -20px;
+}

@@ -1,0 +1,86 @@
+.thoughts{
+    background-color: #082D4A;
+    width: 100%;
+    height: 1500px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+.thoughts p{
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+}
+
+.grid-container{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-top: 55px;
+    margin-left: 320px;
+}
+.left-part{
+    width: 288px;
+    height: 672px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.middle-part{
+    width: 600px;
+    height: 672px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;    
+}
+.right-part{
+    width: 288px;
+    height: 672px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.grid-container img{
+    border-radius: 16px;
+}
+.first-content{
+    position: relative;
+}
+.thought-img{
+    width: 500px;
+    height: 500px;
+    margin-top: 40px;
+    border-radius: 15px;
+    margin-left: 35%;
+}
+.play-icon{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    cursor: pointer;
+}
+
+
+/* -------Media Query-------- */
+@media (max-width:650px){
+    .thoughts{
+        flex-direction: column;
+    }
+    .thoughts-text h2{
+        font-size: 30px;
+    }
+    .thoughts-text p{
+        font-size: 20px;
+        margin: 15px;
+    }
+
+}
+@media (max-width:650px){
+    .grid-container{
+        flex-direction: column;
+    }
+}
